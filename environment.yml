@@ -1,0 +1,13 @@
+name: nerf_grad_project
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - tensorflow==1.15   # CPU version
+  - numpy
+  - matplotlib
+  - imageio
+  - imageio-ffmpeg
+  - configargparse
+  - imagemagick
